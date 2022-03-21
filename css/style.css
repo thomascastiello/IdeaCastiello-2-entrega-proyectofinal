@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    padding: 5px 40px;
+    border-radius: 50%;
+    height: 95px; /*se estira hacia riba y abajo*/
+    width: 165px; /* se estira a los costados*/
+    margin: 0 80px; /* no respeta las cajas*/
+}
+
+
+.navcolor{
+    color: white;
+}
+
+.navmenut{
+    padding: 0 10px;
+}
+
+.navtransition{
+    border-radius: 500px;
+    transition: 0.7s;
+}
+
+.navtransition:hover{
+    background-color: red;
+}
+
+
+
+/*FOOTER*/
+.grupo-2{
+    background-color: #393E46;
+    padding: 10px 10px;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    
+}
+
+.grupo-2 small{
+    font-size: 16px; 
+}
+ 
+
+
+.pie-pagina{
+    background-color: #15498A;
+    left: 0%;
+}
+
+
+.redsocial{ 
+    margin-left: 3em;
+    margin-right: 8rem;
+}
+.redsocial a{
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background-color: #393E46;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.redsocial a:hover{
+    color: #FF1700;
+}
+
+/* FIN FOOTER*/
+
+.justificado{
+    text-align: left;
+}
+
+}
